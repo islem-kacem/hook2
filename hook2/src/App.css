@@ -69,3 +69,27 @@ h1{
 .about:hover{
   color: #61dafb;
 }
+
+.logo{
+  max-width: 66px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.responsive-box {
+  color: rgb(34, 4, 4);
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .responsive-box {
+      background-color: #ffffff; /* Change the background color */
+      font-size: 16px; /* Adjust font size */
+  }
+  .cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-direction:column;
+  }
+}

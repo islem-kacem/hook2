@@ -38,6 +38,7 @@ export default function ActionAreaCard({ data, setData }) {
               <button class="btn2" onClick={()=>navigate(`/description/${el.id}`) } >
                 Description
               </button>
+              <div class="responsive-box"></div> 
             </CardContent>
           </CardActionArea>
         </Card>

@@ -12,6 +12,7 @@ const Description = () => {
 	}, [id]);
   return (
     <div>{Description.Description}</div>
+    
   )
 }
 export default Description;
