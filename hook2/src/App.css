@@ -104,5 +104,26 @@ h1{
 
 
 
+h3:hover{
+  color:red;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gmap_canvas {
+  align-content: center;
+  overflow:hidden;
+  background:none;
+  height:500px;
+  width:100%;
+}
+
+.mapouter{
+  align-content: center;
+  position:relative;
+  text-align:center;
+  height:500px;
+  width:100%;
+}
 
 
