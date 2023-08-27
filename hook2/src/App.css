@@ -95,7 +95,11 @@ h1{
   }
 }
 
-
+.img{
+  height: 60px; /* Adjust the height according to your design */
+  width: auto;
+  left: 0px;
+}
 
 
 
