@@ -73,6 +73,7 @@ h1{
 .logo{
   max-width: 66px; /* Adjust the width as needed */
   height: auto;
+  background-color: #61dafb ; 
 }
 
 .responsive-box {
@@ -93,3 +94,11 @@ h1{
     flex-direction:column;
   }
 }
+
+
+
+
+
+
+
+
