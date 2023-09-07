@@ -22,8 +22,9 @@ function App() {
         <Route path="/decription/:id" element={<Description />} />
       </Routes>
     </div>
-    
   );
 }
+
+
 
 export default App;

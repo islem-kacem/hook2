@@ -2,13 +2,19 @@ const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 const FormDataModel = require ('../models/FormData');
-
+mongoose.connect('mongodb+srv://islem333:islem2002@cluster0.r6vtq1h.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    console.log('Connected successfully to the database');
+ 
+  })
+  .catch((err) => {
+    console.log('Error connecting to the database:', err);
+  });
 
 const app = express();
 app.use(express.json());
 app.use(cors());
-
-mongoose.connect('mongodb://127.0.0.1:27017/practice_mern');
+const deploy_link="link eli bch te5dho b3d ma t3ml deploy lel backend 5lih kek lin tkml project "
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database
@@ -50,6 +56,6 @@ app.post('/login', (req, res)=>{
 })
 
 app.listen(3001, () => {
-    console.log("Server listining on http://127.0.0.1:3001");
+    console.log("Server listining on  ",deploy_link);
 
 });
